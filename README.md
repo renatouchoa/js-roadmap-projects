@@ -13,3 +13,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |3 |Number Checker       |https://roadmap.sh/projects/js-number-checker       |[number-checker.js](/solutions/beginner/mumber-checker.js)              |
 |4 |String Formatter     |https://roadmap.sh/projects/js-string-formatter     |[string-formatter.js](/solutions/beginner/string-formatter.js)          |
 |5 |Price Calculator     |https://roadmap.sh/projects/js-price-calculator     |[price-calculator.js](/solutions/beginner/price-calculator.js)          |
+|6 |Cart Total Calculator|https://roadmap.sh/projects/js-cart-total-calculator|[cart-total-calculator.js](/solutions/beginner/cart-total-calculator.js)|

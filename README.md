@@ -15,3 +15,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |5 |Price Calculator      |https://roadmap.sh/projects/js-price-calculator      |[price-calculator.js](/solutions/beginner/price-calculator.js)            |
 |6 |Cart Total Calculator |https://roadmap.sh/projects/js-cart-total-calculator |[cart-total-calculator.js](/solutions/beginner/cart-total-calculator.js)  |
 |7 |Grade Report Generator|https://roadmap.sh/projects/js-grade-report-generator|[grade-report-generator.js](/solutions/beginner/grade-report-generator.js)|
+|8 |Task List Utilities   |https://roadmap.sh/projects/js-task-list-utilities   |[task-list-utilities](/solutions/beginner/task-list-utilities.js)         |

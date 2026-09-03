@@ -6,7 +6,7 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 
 ### Beginner
 
-|# |Problem               |URL                                                  |Solution                                                                  |
+|# |Project               |URL                                                  |Solution                                                                  |
 |--|----------------------|-----------------------------------------------------|--------------------------------------------------------------------------|
 |1 |Greeting Builder      |https://roadmap.sh/projects/js-greeting-builder      |[greeting-builder.js](/solutions/beginner/greeting-builder.js)            |
 |2 |Temperature Converter |https://roadmap.sh/projects/js-temperature-converter |[temperature-converter.js](/solutions/beginner/temperature-converter.js)  |
@@ -16,3 +16,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |6 |Cart Total Calculator |https://roadmap.sh/projects/js-cart-total-calculator |[cart-total-calculator.js](/solutions/beginner/cart-total-calculator.js)  |
 |7 |Grade Report Generator|https://roadmap.sh/projects/js-grade-report-generator|[grade-report-generator.js](/solutions/beginner/grade-report-generator.js)|
 |8 |Task List Utilities   |https://roadmap.sh/projects/js-task-list-utilities   |[task-list-utilities](/solutions/beginner/task-list-utilities.js)         |
+|9 |Expense Summary       |https://roadmap.sh/projects/js-expense-summary       |[expense-summary](/solutions/beginner/expense-summary.js)                 |

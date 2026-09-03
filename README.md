@@ -18,3 +18,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |8 |Task List Utilities      |https://roadmap.sh/projects/js-task-list-utilities      |[task-list-utilities.js](./solutions/beginner/task-list-utilities.js)            |
 |9 |Expense Summary          |https://roadmap.sh/projects/js-expense-summary          |[expense-summary.js](./solutions/beginner/expense-summary.js)                    |
 |10|Product Search and Filter|https://roadmap.sh/projects/js-product-search-and-filter|[product-search-and-filter.js](./solutions/beginner/product-search-and-filter.js)|
+|11|User Profile Formatter   |https://roadmap.sh/projects/js-user-profile-formatter   |[user-profile-formatter.js](./solutions/beginner/user-profile-formatter.js)       |

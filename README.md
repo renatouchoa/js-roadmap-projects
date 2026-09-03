@@ -20,3 +20,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |10|Product Search and Filter|https://roadmap.sh/projects/js-product-search-and-filter|[product-search-and-filter.js](./solutions/beginner/product-search-and-filter.js)|
 |11|User Profile Formatter   |https://roadmap.sh/projects/js-user-profile-formatter   |[user-profile-formatter.js](./solutions/beginner/user-profile-formatter.js)      |
 |12|Quiz Score Calculator    |https://roadmap.sh/projects/js-quiz-score-calculator    |[quiz-score-calculator.js](./solutions/beginner/quiz-score-calculator.js)        |
+|13|JSON Response Normalizer |https://roadmap.sh/projects/js-json-response-normalizer |[json-response-normalize.js](./solutions/beginner/json-response-normalize.js)    |

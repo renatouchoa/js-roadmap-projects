@@ -22,3 +22,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |12|Quiz Score Calculator    |https://roadmap.sh/projects/js-quiz-score-calculator    |[quiz-score-calculator.js](./solutions/beginner/quiz-score-calculator.js)        |
 |13|JSON Response Normalizer |https://roadmap.sh/projects/js-json-response-normalizer |[json-response-normalize.js](./solutions/beginner/json-response-normalize.js)    |
 |14|Password Rule Checker    |https://roadmap.sh/projects/js-password-rule-checker    |[password-rule-checker.js](./solutions/beginner/password-rule-checker.js)        |
+|15|Order Status Helper      |https://roadmap.sh/projects/js-order-status-helper      |[order-status-helper.js](./solutions/beginner/order-status-helper.js)            |

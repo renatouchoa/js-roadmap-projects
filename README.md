@@ -24,3 +24,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |14|Password Rule Checker    |https://roadmap.sh/projects/js-password-rule-checker    |[password-rule-checker.js](./solutions/beginner/password-rule-checker.js)        |
 |15|Order Status Helper      |https://roadmap.sh/projects/js-order-status-helper      |[order-status-helper.js](./solutions/beginner/order-status-helper.js)            |
 |16|Tabs                     |https://roadmap.sh/projects/simple-tabs                 |[/tabs](./solutions/beginner/tabs)                                               |
+|17|Cookie Consent           |https://roadmap.sh/projects/cookie-consent              |[/cookie-consent](./solutions/beginner/cookie-consent/)                          |

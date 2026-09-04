@@ -18,6 +18,15 @@ body {
     width: 300px;
     box-shadow: 4px 5px 4px -3px rgba(0, 0, 0, 0.46);
     -webkit-box-shadow: 4px 5px 4px -3px rgba(0, 0, 0, 0.46);
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+
+    &.closed {
+        display: none;
+        visibility: hidden;
+    }
 
     i {
         color: siena;
@@ -36,9 +45,25 @@ body {
         cursor: pointer;
         padding: 10px 20px;
         font-size: 110%;
+        color: #FFF;
 
-        &#cc-confirm {
-            background-color: lightseagreen;
+        &#cc-accept {
+            background-color: #0e4e17;
+            border-color: #0b3000;
+
+            &:hover {
+                background-color: #0a3b11;
+            }
+        }
+
+        &#cc-reject {
+            background-color: #ffe1e1;
+            border-color: transparent;
+            color: #362828;
+
+            &:hover {
+                background-color: #ffd3d3;
+            }
         }
     }
 }

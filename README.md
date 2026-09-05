@@ -26,3 +26,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |16|Tabs                     |https://roadmap.sh/projects/simple-tabs                 |[/tabs](./solutions/beginner/tabs/)                                              |
 |17|Cookie Consent           |https://roadmap.sh/projects/cookie-consent              |[/cookie-consent](./solutions/beginner/cookie-consent/)                          |
 |18|Restricted Textarea      |https://roadmap.sh/projects/restricted-textarea         |[/restricted-textarea](./solutions/beginner/restricted-textarea/)                |
+|19|Accordion                |https://roadmap.sh/projects/accordion                   |[/accordion](./solutions/beginner/accordion/)                                    |

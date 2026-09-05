@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.accordion {
+    .accordion-tab {
+        .accordion-heading {
+            color: #333;
+            border-width: 0 1px 1px 1px;
+            border-color: #999;
+            border-style: solid;
+            font-size: inherit;
+            margin: 0;
+            position: relative;
+
+            a {
+                color: inherit;
+                display: block;
+                text-decoration: none;
+                font-weight: normal;
+            }
+
+            &::after {
+                content: "⮝";
+                display: block;
+                float: right;
+                right: 0;
+                top: 0;
+                position: absolute;
+                padding: 5px 15px;
+            }
+
+        }
+
+        .accordion-heading a,
+        .accordion-content {
+            padding: 10px;
+        }
+
+        .accordion-content {
+            border-width: 0 1px 1px 1px;
+            border-color: #999;
+            border-style: solid;
+            display: none;
+            visibility: hidden;
+        }
+
+        &:first-child {
+            .accordion-heading {
+                border-radius: 10px 10px 0 0;
+                border-top-width: 1px;
+            }
+        }
+
+        &:last-child {
+            .accordion-content {
+                border-radius: 0 0 10px 10px;
+            }
+
+            .accordion-heading {
+                border-radius: 0 0 10px 10px;
+                border-bottom-width: 1px;
+            }
+
+            &.active {
+                .accordion-heading {
+                    border-radius: 0;
+                }
+            }
+
+        }
+
+        &.active {
+            .accordion-heading {
+                background-color: aliceblue;
+                color: rgb(36, 36, 216);
+
+                a {
+                    color: inherit;
+                }
+
+                &::after {
+                    content: "⮟";
+                }
+
+            }
+
+            .accordion-content {
+                display: block;
+                visibility: visible;
+            }
+        }
+    }
+}

@@ -27,3 +27,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |17|Cookie Consent           |https://roadmap.sh/projects/cookie-consent              |[/cookie-consent](./solutions/beginner/cookie-consent/)                          |
 |18|Restricted Textarea      |https://roadmap.sh/projects/restricted-textarea         |[/restricted-textarea](./solutions/beginner/restricted-textarea/)                |
 |19|Accordion                |https://roadmap.sh/projects/accordion                   |[/accordion](./solutions/beginner/accordion/)                                    |
+|20|Age Calculator           |https://roadmap.sh/projects/age-calculator              |[/age-calculator](./solutions/beginner/age-calculator/)                          |

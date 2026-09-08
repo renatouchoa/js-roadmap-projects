@@ -1,0 +1,20 @@
+.option {
+    text-align: left;
+}
+
+
+.btn.disabled {
+    opacity: initial;
+}
+
+
+#nav {
+    a {
+        margin-right: 1px;
+
+        &.selected {
+            border-color: #000;
+            font-weight: bold;
+        }
+    }
+}

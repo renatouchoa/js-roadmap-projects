@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "q-geo-001",
+    "statement": "Qual é o ponto culminante do relevo brasileiro?",
+    "options": [
+      {
+        "id": "p1a01a",
+        "content": "Pico da Neblina"
+      },
+      {
+        "id": "p1a01b",
+        "content": "Pico 31 de Março"
+      },
+      {
+        "id": "p1a01c",
+        "content": "Pico da Bandeira"
+      },
+      {
+        "id": "p1a01d",
+        "content": "Monte Roraima"
+      },
+      {
+        "id": "p1a01e",
+        "content": "Pedra da Mina"
+      }
+    ],
+    "correct": "p1a01a"
+  },
+  {
+    "id": "q-geo-002",
+    "statement": "Qual é o maior estado brasileiro em extensão territorial?",
+    "options": [
+      {
+        "id": "p2a02a",
+        "content": "Pará"
+      },
+      {
+        "id": "p2a02b",
+        "content": "Mato Grosso"
+      },
+      {
+        "id": "p2a02c",
+        "content": "Amazonas"
+      },
+      {
+        "id": "p2a02d",
+        "content": "Minas Gerais"
+      },
+      {
+        "id": "p2a02e",
+        "content": "Bahia"
+      }
+    ],
+    "correct": "p2a02c"
+  },
+  {
+    "id": "q-geo-50",
+    "statement": "Qual é o menor estado brasileiro em área territorial (excluindo o DF)?",
+    "options": [
+      {
+        "id": "p3a03a",
+        "content": "Alagoas"
+      },
+      {
+        "id": "p3a03b",
+        "content": "Sergipe"
+      },
+      {
+        "id": "p3a03c",
+        "content": "Espírito Santo"
+      },
+      {
+        "id": "p3a03d",
+        "content": "Rio de Janeiro"
+      },
+      {
+        "id": "p3a03e",
+        "content": "Rio Grande do Norte"
+      }
+    ],
+    "correct": "p3a03b"
+  },
+  {
+    "id": "q-geo-003",
+    "statement": "Qual bioma brasileiro é predominantemente semiárido e exclusivo do território nacional?",
+    "options": [
+      {
+        "id": "p4a04a",
+        "content": "Cerrado"
+      },
+      {
+        "id": "p4a04b",
+        "content": "Pantanal"
+      },
+      {
+        "id": "p4a04c",
+        "content": "Pampa"
+      },
+      {
+        "id": "p4a04d",
+        "content": "Caatinga"
+      },
+      {
+        "id": "p4a04e",
+        "content": "Mata Atlântica"
+      }
+    ],
+    "correct": "p4a04d"
+  },
+  {
+    "id": "q-geo-004",
+    "statement": "Qual rio totalmente brasileiro é historicamente conhecido como o 'Rio da Integração Nacional'?",
+    "options": [
+      {
+        "id": "p5a05a",
+        "content": "Rio Araguaia"
+      },
+      {
+        "id": "p5a05b",
+        "content": "Rio Tocantins"
+      },
+      {
+        "id": "p5a05c",
+        "content": "Rio São Francisco"
+      },
+      {
+        "id": "p5a05d",
+        "content": "Rio Paraná"
+      },
+      {
+        "id": "p5a05e",
+        "content": "Rio Parnaíba"
+      }
+    ],
+    "correct": "p5a05c"
+  },
+  {
+    "id": "q-geo-005",
+    "statement": "Qual estado foi criado pela Constituição de 1988 a partir do desmembramento do norte de Goiás?",
+    "options": [
+      {
+        "id": "p6a06a",
+        "content": "Rondônia"
+      },
+      {
+        "id": "p6a06b",
+        "content": "Tocantins"
+      },
+      {
+        "id": "p6a06c",
+        "content": "Mato Grosso do Sul"
+      },
+      {
+        "id": "p6a06d",
+        "content": "Roraima"
+      },
+      {
+        "id": "p6a06e",
+        "content": "Amapá"
+      }
+    ],
+    "correct": "p6a06b"
+  },
+  {
+    "id": "q-geo-006",
+    "statement": "O arquipélago de Fernando de Noronha pertence administrativamente a qual unidade federativa?",
+    "options": [
+      {
+        "id": "p7a07a",
+        "content": "Rio Grande do Norte"
+      },
+      {
+        "id": "p7a07b",
+        "content": "Ceará"
+      },
+      {
+        "id": "p7a07c",
+        "content": "Pernambuco"
+      },
+      {
+        "id": "p7a07d",
+        "content": "Paraíba"
+      },
+      {
+        "id": "p7a07e",
+        "content": "Bahia"
+      }
+    ],
+    "correct": "p7a07c"
+  },
+  {
+    "id": "q-geo-007",
+    "statement": "Qual é a capital brasileira localizada mais ao norte do país?",
+    "options": [
+      {
+        "id": "p8a08a",
+        "content": "Macapá"
+      },
+      {
+        "id": "p8a08b",
+        "content": "Manaus"
+      },
+      {
+        "id": "p8a08c",
+        "content": "Belém"
+      },
+      {
+        "id": "p8a08d",
+        "content": "Boa Vista"
+      },
+      {
+        "id": "p8a08e",
+        "content": "Porto Velho"
+      }
+    ],
+    "correct": "p8a08d"
+  },
+  {
+    "id": "q-geo-008",
+    "statement": "Qual capital estadual brasileira é cortada exatamente pela linha do Equador?",
+    "options": [
+      {
+        "id": "p9a09a",
+        "content": "Macapá"
+      },
+      {
+        "id": "p9a09b",
+        "content": "Boa Vista"
+      },
+      {
+        "id": "p9a09c",
+        "content": "Manaus"
+      },
+      {
+        "id": "p9a09d",
+        "content": "Belém"
+      },
+      {
+        "id": "p9a09e",
+        "content": "São Luís"
+      }
+    ],
+    "correct": "p9a09a"
+  },
+  {
+    "id": "q-geo-009",
+    "statement": "Qual é a maior bacia hidrográfica exclusivamente em território brasileiro?",
+    "options": [
+      {
+        "id": "p10a10a",
+        "content": "Bacia Amazônica"
+      },
+      {
+        "id": "p10a10b",
+        "content": "Bacia do Paraná"
+      },
+      {
+        "id": "p10a10c",
+        "content": "Bacia do Tocantins-Araguaia"
+      },
+      {
+        "id": "p10a10d",
+        "content": "Bacia do São Francisco"
+      },
+      {
+        "id": "p10a10e",
+        "content": "Bacia do Parnaíba"
+      }
+    ],
+    "correct": "p10a10c"
+  },
+  {
+    "id": "q-geo-010",
+    "statement": "O Pampa é um bioma restrito a qual estado brasileiro?",
+    "options": [
+      {
+        "id": "p11a11a",
+        "content": "Santa Catarina"
+      },
+      {
+        "id": "p11a11b",
+        "content": "Paraná"
+      },
+      {
+        "id": "p11a11c",
+        "content": "Mato Grosso do Sul"
+      },
+      {
+        "id": "p11a11d",
+        "content": "Rio Grande do Sul"
+      },
+      {
+        "id": "p11a11e",
+        "content": "São Paulo"
+      }
+    ],
+    "correct": "p11a11d"
+  },
+  {
+    "id": "q-geo-011",
+    "statement": "Qual estado brasileiro possui o maior número de municípios?",
+    "options": [
+      {
+        "id": "p12a12a",
+        "content": "São Paulo"
+      },
+      {
+        "id": "p12a12b",
+        "content": "Minas Gerais"
+      },
+      {
+        "id": "p12a12c",
+        "content": "Bahia"
+      },
+      {
+        "id": "p12a12d",
+        "content": "Paraná"
+      },
+      {
+        "id": "p12a12e",
+        "content": "Rio Grande do Sul"
+      }
+    ],
+    "correct": "p12a12b"
+  },
+  {
+    "id": "q-geo-012",
+    "statement": "Qual é a maior ilha fluviomarinha do mundo, situada no estado do Pará?",
+    "options": [
+      {
+        "id": "p13a13a",
+        "content": "Ilha do Bananal"
+      },
+      {
+        "id": "p13a13b",
+        "content": "Ilha de Marajó"
+      },
+      {
+        "id": "p13a13c",
+        "content": "Ilha Grande"
+      },
+      {
+        "id": "p13a13d",
+        "content": "Ilha de Santa Catarina"
+      },
+      {
+        "id": "p13a13e",
+        "content": "Ilha de São Luís"
+      }
+    ],
+    "correct": "p13a13b"
+  },
+  {
+    "id": "q-geo-013",
+    "statement": "Qual é a maior ilha genuinamente fluvial do mundo, cercada pelos rios Araguaia e Javaés?",
+    "options": [
+      {
+        "id": "p14a14a",
+        "content": "Ilha do Bananal"
+      },
+      {
+        "id": "p14a14b",
+        "content": "Ilha de Marajó"
+      },
+      {
+        "id": "p14a14c",
+        "content": "Ilha Tupinambarana"
+      },
+      {
+        "id": "p14a14d",
+        "content": "Ilha Grande"
+      },
+      {
+        "id": "p14a14e",
+        "content": "Ilha do Cardoso"
+      }
+    ],
+    "correct": "p14a14a"
+  },
+  {
+    "id": "q-geo-014",
+    "statement": "Qual dos seguintes países da América do Sul NÃO faz fronteira com o Brasil?",
+    "options": [
+      {
+        "id": "p15a15a",
+        "content": "Bolívia"
+      },
+      {
+        "id": "p15a15b",
+        "content": "Suriname"
+      },
+      {
+        "id": "p15a15c",
+        "content": "Chile"
+      },
+      {
+        "id": "p15a15d",
+        "content": "Guiana"
+      },
+      {
+        "id": "p15a15e",
+        "content": "Paraguai"
+      }
+    ],
+    "correct": "p15a15c"
+  },
+  {
+    "id": "q-geo-015",
+    "statement": "Qual é o clima predominante na Região Sul do Brasil?",
+    "options": [
+      {
+        "id": "p16a16a",
+        "content": "Equatorial"
+      },
+      {
+        "id": "p16a16b",
+        "content": "Tropical Típico"
+      },
+      {
+        "id": "p16a16c",
+        "content": "Semiárido"
+      },
+      {
+        "id": "p16a16d",
+        "content": "Subtropical"
+      },
+      {
+        "id": "p16a16e",
+        "content": "Tropical de Altitude"
+      }
+    ],
+    "correct": "p16a16d"
+  },
+  {
+    "id": "q-geo-016",
+    "statement": "Em qual estado brasileiro localiza-se o Parque Nacional dos Lençóis Maranhenses?",
+    "options": [
+      {
+        "id": "p17a17a",
+        "content": "Piauí"
+      },
+      {
+        "id": "p17a17b",
+        "content": "Ceará"
+      },
+      {
+        "id": "p17a17c",
+        "content": "Maranhão"
+      },
+      {
+        "id": "p17a17d",
+        "content": "Pará"
+      },
+      {
+        "id": "p17a17e",
+        "content": "Bahia"
+      }
+    ],
+    "correct": "p17a17c"
+  },
+  {
+    "id": "q-geo-17",
+    "statement": "Qual é a segunda maior bacia hidrográfica em volume da América do Sul, compartilhada pelo Brasil?",
+    "options": [
+      {
+        "id": "p18a18a",
+        "content": "Bacia do Prata"
+      },
+      {
+        "id": "p18a18b",
+        "content": "Bacia do Orinoco"
+      },
+      {
+        "id": "p18a18c",
+        "content": "Bacia do São Francisco"
+      },
+      {
+        "id": "p18a18d",
+        "content": "Bacia do Tocantins"
+      },
+      {
+        "id": "p18a18e",
+        "content": "Bacia do Parnaíba"
+      }
+    ],
+    "correct": "p18a18a"
+  },
+  {
+    "id": "q-geo-18",
+    "statement": "O ponto mais oriental do território continental brasileiro é a Ponta do Seixas, situada em:",
+    "options": [
+      {
+        "id": "p19a19a",
+        "content": "Natal (RN)"
+      },
+      {
+        "id": "p19a19b",
+        "content": "Recife (PE)"
+      },
+      {
+        "id": "p19a19c",
+        "content": "João Pessoa (PB)"
+      },
+      {
+        "id": "p19a19d",
+        "content": "Maceió (AL)"
+      },
+      {
+        "id": "p19a19e",
+        "content": "Fortaleza (CE)"
+      }
+    ],
+    "correct": "p19a19c"
+  },
+  {
+    "id": "q-geo-19",
+    "statement": "Qual é o ponto extremo ocidental (a oeste) do Brasil continental?",
+    "options": [
+      {
+        "id": "p20a20a",
+        "content": "Nascente do Rio Moa"
+      },
+      {
+        "id": "p20a20b",
+        "content": "Arroio Chuí"
+      },
+      {
+        "id": "p20a20c",
+        "content": "Monte Caburaí"
+      },
+      {
+        "id": "p20a20d",
+        "content": "Ponta do Seixas"
+      },
+      {
+        "id": "p20a20e",
+        "content": "Foz do Rio Oiapoque"
+      }
+    ],
+    "correct": "p20a20a"
+  },
+  {
+    "id": "q-geo-20",
+    "statement": "Geograficamente, qual é o verdadeiro extremo norte do Brasil?",
+    "options": [
+      {
+        "id": "p21a21a",
+        "content": "Foz do Rio Oiapoque"
+      },
+      {
+        "id": "p21a21b",
+        "content": "Monte Caburaí"
+      },
+      {
+        "id": "p21a21c",
+        "content": "Pico da Neblina"
+      },
+      {
+        "id": "p21a21d",
+        "content": "Serra do Tumucumaque"
+      },
+      {
+        "id": "p21a21e",
+        "content": "Cabo Orange"
+      }
+    ],
+    "correct": "p21a21b"
+  },
+  {
+    "id": "q-geo-21",
+    "statement": "Qual é o ponto extremo sul do território brasileiro?",
+    "options": [
+      {
+        "id": "p22a22a",
+        "content": "Cabo de Santa Marta"
+      },
+      {
+        "id": "p22a22b",
+        "content": "Arroio Chuí"
+      },
+      {
+        "id": "p22a22c",
+        "content": "Barra do Quaraí"
+      },
+      {
+        "id": "p22a22d",
+        "content": "Praia do Cassino"
+      },
+      {
+        "id": "p22a22e",
+        "content": "Lagoa Mirim"
+      }
+    ],
+    "correct": "p22a22b"
+  },
+  {
+    "id": "q-geo-22",
+    "statement": "A Mata dos Cocais é considerada uma faixa de transição entre quais domínios morfoclimáticos?",
+    "options": [
+      {
+        "id": "p23a23a",
+        "content": "Cerrado e Pampa"
+      },
+      {
+        "id": "p23a23b",
+        "content": "Amazônia, Cerrado e Caatinga"
+      },
+      {
+        "id": "p23a23c",
+        "content": "Pantanal e Caatinga"
+      },
+      {
+        "id": "p23a23d",
+        "content": "Mata Atlântica e Pampa"
+      },
+      {
+        "id": "p23a23e",
+        "content": "Cerrado e Pantanal"
+      }
+    ],
+    "correct": "p23a23b"
+  },
+  {
+    "id": "q-geo-23",
+    "statement": "A rodovia Transamazônica recebe oficialmente qual codificação do Departamento Nacional de Infraestrutura?",
+    "options": [
+      {
+        "id": "p24a24a",
+        "content": "BR-101"
+      },
+      {
+        "id": "p24a24b",
+        "content": "BR-116"
+      },
+      {
+        "id": "p24a24c",
+        "content": "BR-230"
+      },
+      {
+        "id": "p24a24d",
+        "content": "BR-163"
+      },
+      {
+        "id": "p24a24e",
+        "content": "BR-153"
+      }
+    ],
+    "correct": "p24a24c"
+  },
+  {
+    "id": "q-geo-24",
+    "statement": "A rodovia BR-153 é historicamente popularizada pelo nome de:",
+    "options": [
+      {
+        "id": "p25a25a",
+        "content": "Rodovia Belém-Brasília"
+      },
+      {
+        "id": "p25a25b",
+        "content": "Rodovia Rio-Santos"
+      },
+      {
+        "id": "p25a25c",
+        "content": "Rodovia dos Imigrantes"
+      },
+      {
+        "id": "p25a25d",
+        "content": "Rodovia Presidente Dutra"
+      },
+      {
+        "id": "p25a25e",
+        "content": "Rodovia Régis Bittencourt"
+      }
+    ],
+    "correct": "p25a25a"
+  },
+  {
+    "id": "q-geo-25",
+    "statement": "Quantos estados compõem a Região Centro-Oeste do Brasil (sem contar o Distrito Federal)?",
+    "options": [
+      {
+        "id": "p26a26a",
+        "content": "2"
+      },
+      {
+        "id": "p26a26b",
+        "content": "3"
+      },
+      {
+        "id": "p26a26c",
+        "content": "4"
+      },
+      {
+        "id": "p26a26d",
+        "content": "5"
+      },
+      {
+        "id": "p26a26e",
+        "content": "6"
+      }
+    ],
+    "correct": "p26a26b"
+  },
+  {
+    "id": "q-geo-26",
+    "statement": "Qual das seguintes capitais brasileiras é uma cidade planejada construída no final do século XIX?",
+    "options": [
+      {
+        "id": "p27a27a",
+        "content": "Belo Horizonte"
+      },
+      {
+        "id": "p27a27b",
+        "content": "Brasília"
+      },
+      {
+        "id": "p27a27c",
+        "content": "Palmas"
+      },
+      {
+        "id": "p27a27d",
+        "content": "Goiânia"
+      },
+      {
+        "id": "p27a27e",
+        "content": "Salvador"
+      }
+    ],
+    "correct": "p27a27a"
+  },
+  {
+    "id": "q-geo-27",
+    "statement": "Qual é o relevo característico do interior do Nordeste que cerca a bacia semiárida e barra massas de ar úmidas?",
+    "options": [
+      {
+        "id": "p28a28a",
+        "content": "Planalto da Borborema"
+      },
+      {
+        "id": "p28a28b",
+        "content": "Serra da Canastra"
+      },
+      {
+        "id": "p28a28c",
+        "content": "Planalto Central"
+      },
+      {
+        "id": "p28a28d",
+        "content": "Serra Geral"
+      },
+      {
+        "id": "p28a28e",
+        "content": "Serra da Mantiqueira"
+      }
+    ],
+    "correct": "p28a28a"
+  },
+  {
+    "id": "q-geo-28",
+    "statement": "As Cataratas do Iguaçu situam-se no rio Iguaçu, na fronteira do Brasil com qual país?",
+    "options": [
+      {
+        "id": "p29a29a",
+        "content": "Paraguai"
+      },
+      {
+        "id": "p29a29b",
+        "content": "Uruguai"
+      },
+      {
+        "id": "p29a29c",
+        "content": "Argentina"
+      },
+      {
+        "id": "p29a29d",
+        "content": "Bolívia"
+      },
+      {
+        "id": "p29a29e",
+        "content": "Chile"
+      }
+    ],
+    "correct": "p29a29c"
+  },
+  {
+    "id": "q-geo-29",
+    "statement": "O encontro das águas escuras do Rio Negro com as águas barrentas do Rio Solimões forma qual rio?",
+    "options": [
+      {
+        "id": "p30a30a",
+        "content": "Rio Madeira"
+      },
+      {
+        "id": "p30a30b",
+        "content": "Rio Tapajós"
+      },
+      {
+        "id": "p30a30c",
+        "content": "Rio Amazonas"
+      },
+      {
+        "id": "p30a30d",
+        "content": "Rio Xingu"
+      },
+      {
+        "id": "p30a30e",
+        "content": "Rio Branco"
+      }
+    ],
+    "correct": "p30a30c"
+  },
+  {
+    "id": "q-geo-30",
+    "statement": "A Zona Franca de Manaus é um polo industrial incentivado localizado em qual estado?",
+    "options": [
+      {
+        "id": "p31a31a",
+        "content": "Pará"
+      },
+      {
+        "id": "p31a31b",
+        "content": "Rondônia"
+      },
+      {
+        "id": "p31a31c",
+        "content": "Amazonas"
+      },
+      {
+        "id": "p31a31d",
+        "content": "Acre"
+      },
+      {
+        "id": "p31a31e",
+        "content": "Roraima"
+      }
+    ],
+    "correct": "p31a31c"
+  },
+  {
+    "id": "q-geo-31",
+    "statement": "Qual é a maior usina hidrelétrica 100% brasileira em capacidade instalada de geração?",
+    "options": [
+      {
+        "id": "p32a32a",
+        "content": "Itaipu"
+      },
+      {
+        "id": "p32a32b",
+        "content": "Belo Monte"
+      },
+      {
+        "id": "p32a32c",
+        "content": "Tucuruí"
+      },
+      {
+        "id": "p32a32d",
+        "content": "Santo Antônio"
+      },
+      {
+        "id": "p32a32e",
+        "content": "Jirau"
+      }
+    ],
+    "correct": "p32a32b"
+  },
+  {
+    "id": "q-geo-32",
+    "statement": "Qual estado do Nordeste NÃO possui saída para o Oceano Atlântico?",
+    "options": [
+      {
+        "id": "p33a33a",
+        "content": "Piauí"
+      },
+      {
+        "id": "p33a33b",
+        "content": "Sergipe"
+      },
+      {
+        "id": "p33a33c",
+        "content": "Paraíba"
+      },
+      {
+        "id": "p33a33d",
+        "content": "Alagoas"
+      },
+      {
+        "id": "p33a33e",
+        "content": "Todos os estados do Nordeste possuem litoral"
+      }
+    ],
+    "correct": "p33a33e"
+  },
+  {
+    "id": "q-geo-33",
+    "statement": "Qual linha imaginária cruza os estados do Paraná, São Paulo e Mato Grosso do Sul?",
+    "options": [
+      {
+        "id": "p34a34a",
+        "content": "Linha do Equador"
+      },
+      {
+        "id": "p34a34b",
+        "content": "Trópico de Câncer"
+      },
+      {
+        "id": "p34a34c",
+        "content": "Trópico de Capricórnio"
+      },
+      {
+        "id": "p34a34d",
+        "content": "Meridiano de Greenwich"
+      },
+      {
+        "id": "p34a34e",
+        "content": "Círculo Polar Antártico"
+      }
+    ],
+    "correct": "p34a34c"
+  },
+  {
+    "id": "q-geo-34",
+    "statement": "Qual é a sub-região mais árida do Nordeste brasileiro?",
+    "options": [
+      {
+        "id": "p35a35a",
+        "content": "Zona da Mata"
+      },
+      {
+        "id": "p35a35b",
+        "content": "Agreste"
+      },
+      {
+        "id": "p35a35c",
+        "content": "Sertão"
+      },
+      {
+        "id": "p35a35d",
+        "content": "Meio-Norte"
+      },
+      {
+        "id": "p35a35e",
+        "content": "Litoral Ocidental"
+      }
+    ],
+    "correct": "p35a35c"
+  },
+  {
+    "id": "q-geo-35",
+    "statement": "Qual cadeia montanhosa estende-se pelos estados de Minas Gerais, São Paulo e Rio de Janeiro, abrigando o Pico das Agulhas Negras?",
+    "options": [
+      {
+        "id": "p36a36a",
+        "content": "Serra do Mar"
+      },
+      {
+        "id": "p36a36b",
+        "content": "Serra da Mantiqueira"
+      },
+      {
+        "id": "p36a36c",
+        "content": "Serra do Espinhaço"
+      },
+      {
+        "id": "p36a36d",
+        "content": "Serra dos Parecis"
+      },
+      {
+        "id": "p36a36e",
+        "content": "Serra Geral"
+      }
+    ],
+    "correct": "p36a36b"
+  },
+  {
+    "id": "q-geo-36",
+    "statement": "A Chapada Diamantina é um importante parque e atrativo geomorfológico situado em qual estado?",
+    "options": [
+      {
+        "id": "p37a37a",
+        "content": "Goiás"
+      },
+      {
+        "id": "p37a37b",
+        "content": "Minas Gerais"
+      },
+      {
+        "id": "p37a37c",
+        "content": "Bahia"
+      },
+      {
+        "id": "p37a37d",
+        "content": "Ceará"
+      },
+      {
+        "id": "p37a37e",
+        "content": "Tocantins"
+      }
+    ],
+    "correct": "p37a37c"
+  },
+  {
+    "id": "q-geo-37",
+    "statement": "O Jalapão, conhecido por suas dunas alaranjadas e fervedouros, localiza-se em qual estado?",
+    "options": [
+      {
+        "id": "p38a38a",
+        "content": "Maranhão"
+      },
+      {
+        "id": "p38a38b",
+        "content": "Piauí"
+      },
+      {
+        "id": "p38a38c",
+        "content": "Goiás"
+      },
+      {
+        "id": "p38a38d",
+        "content": "Tocantins"
+      },
+      {
+        "id": "p38a38e",
+        "content": "Bahia"
+      }
+    ],
+    "correct": "p38a38d"
+  },
+  {
+    "id": "q-geo-38",
+    "statement": "Qual é a capital estadual mais populosa da Região Sul do Brasil?",
+    "options": [
+      {
+        "id": "p39a39a",
+        "content": "Porto Alegre"
+      },
+      {
+        "id": "p39a39b",
+        "content": "Curitiba"
+      },
+      {
+        "id": "p39a39c",
+        "content": "Florianópolis"
+      },
+      {
+        "id": "p39a39d",
+        "content": "Londrina"
+      },
+      {
+        "id": "p39a39e",
+        "content": "Joinville"
+      }
+    ],
+    "correct": "p39a39b"
+  },
+  {
+    "id": "q-geo-39",
+    "statement": "O solo fértil de origem vulcânica muito comum no interior de SP e norte do PR é chamado de:",
+    "options": [
+      {
+        "id": "p40a40a",
+        "content": "Massapê"
+      },
+      {
+        "id": "p40a40b",
+        "content": "Terra Roxa (Latossolo Vermelho)"
+      },
+      {
+        "id": "p40a40c",
+        "content": "Gleissolo"
+      },
+      {
+        "id": "p40a40d",
+        "content": "Espodossolo"
+      },
+      {
+        "id": "p40a40e",
+        "content": "Neossolo Litólico"
+      }
+    ],
+    "correct": "p40a40b"
+  },
+  {
+    "id": "q-geo-40",
+    "statement": "Quantos estados compõem a Região Norte do Brasil segundo a divisão regional do IBGE?",
+    "options": [
+      {
+        "id": "p41a41a",
+        "content": "5"
+      },
+      {
+        "id": "p41a41b",
+        "content": "6"
+      },
+      {
+        "id": "p41a41c",
+        "content": "7"
+      },
+      {
+        "id": "p41a41d",
+        "content": "8"
+      },
+      {
+        "id": "p41a41e",
+        "content": "9"
+      }
+    ],
+    "correct": "p41a41c"
+  },
+  {
+    "id": "q-geo-41",
+    "statement": "Qual complexo portuário brasileiro é o maior da América Latina em movimentação de cargas?",
+    "options": [
+      {
+        "id": "p42a42a",
+        "content": "Porto de Paranaguá"
+      },
+      {
+        "id": "p42a42b",
+        "content": "Porto de Itajaí"
+      },
+      {
+        "id": "p42a42c",
+        "content": "Porto de Santos"
+      },
+      {
+        "id": "p42a42d",
+        "content": "Porto de Suape"
+      },
+      {
+        "id": "p42a42e",
+        "content": "Porto de Tubarão"
+      }
+    ],
+    "correct": "p42a42c"
+  },
+  {
+    "id": "q-geo-42",
+    "statement": "A Serra da Canastra, onde fica a nascente histórica do Rio São Francisco, situa-se em:",
+    "options": [
+      {
+        "id": "p43a43a",
+        "content": "Minas Gerais"
+      },
+      {
+        "id": "p43a43b",
+        "content": "Bahia"
+      },
+      {
+        "id": "p43a43c",
+        "content": "Goiás"
+      },
+      {
+        "id": "p43a43d",
+        "content": "São Paulo"
+      },
+      {
+        "id": "p43a43e",
+        "content": "Espírito Santo"
+      }
+    ],
+    "correct": "p43a43a"
+  },
+  {
+    "id": "q-geo-43",
+    "statement": "A acrônimo 'MATOPIBA' refere-se a uma fronteira agrícola que envolve terras de quais estados?",
+    "options": [
+      {
+        "id": "p44a44a",
+        "content": "Mato Grosso, Tocantins, Piauí e Bahia"
+      },
+      {
+        "id": "p44a44b",
+        "content": "Maranhão, Tocantins, Piauí e Bahia"
+      },
+      {
+        "id": "p44a44c",
+        "content": "Mato Grosso do Sul, Tocantins, Paraná e Bahia"
+      },
+      {
+        "id": "p44a44d",
+        "content": "Maranhão, Tocantins, Pará e Bahia"
+      },
+      {
+        "id": "p44a44e",
+        "content": "Mato Grosso, Tocantins, Pará e Bahia"
+      }
+    ],
+    "correct": "p44a44b"
+  },
+  {
+    "id": "q-geo-44",
+    "statement": "O fuso horário oficial de Brasília em relação ao Tempo Universal Coordenado (UTC) é:",
+    "options": [
+      {
+        "id": "p45a45a",
+        "content": "UTC-2"
+      },
+      {
+        "id": "p45a45b",
+        "content": "UTC-3"
+      },
+      {
+        "id": "p45a45c",
+        "content": "UTC-4"
+      },
+      {
+        "id": "p45a45d",
+        "content": "UTC-5"
+      },
+      {
+        "id": "p45a45e",
+        "content": "UTC-1"
+      }
+    ],
+    "correct": "p45a45b"
+  },
+  {
+    "id": "q-geo-45",
+    "statement": "Qual das seguintes capitais brasileiras está situada em uma ilha litorânea?",
+    "options": [
+      {
+        "id": "p46a46a",
+        "content": "Recife"
+      },
+      {
+        "id": "p46a46b",
+        "content": "Salvador"
+      },
+      {
+        "id": "p46a46c",
+        "content": "Florianópolis"
+      },
+      {
+        "id": "p46a46d",
+        "content": "Fortaleza"
+      },
+      {
+        "id": "p46a46e",
+        "content": "Natal"
+      }
+    ],
+    "correct": "p46a46c"
+  },
+  {
+    "id": "q-geo-46",
+    "statement": "A vegetação arbórea com raízes respiratórias (pneumatóforos) típica de estuários brasileiros pertence aos:",
+    "options": [
+      {
+        "id": "p47a47a",
+        "content": "Manguezais"
+      },
+      {
+        "id": "p47a47b",
+        "content": "Restingas"
+      },
+      {
+        "id": "p47a47c",
+        "content": "Campos Limpos"
+      },
+      {
+        "id": "p47a47d",
+        "content": "Cerradões"
+      },
+      {
+        "id": "p47a47e",
+        "content": "Igapós"
+      }
+    ],
+    "correct": "p47a47a"
+  },
+  {
+    "id": "q-geo-47",
+    "statement": "O Parque Nacional do Catimbau e a Serra da Capivara são sítios arqueológicos e geomorfológicos localizados respectivamente em:",
+    "options": [
+      {
+        "id": "p48a48a",
+        "content": "Bahia e Ceará"
+      },
+      {
+        "id": "p48a48b",
+        "content": "Pernambuco e Piauí"
+      },
+      {
+        "id": "p48a48c",
+        "content": "Paraíba e Rio Grande do Norte"
+      },
+      {
+        "id": "p48a48d",
+        "content": "Maranhão e Tocantins"
+      },
+      {
+        "id": "p48a48e",
+        "content": "Alagoas e Sergipe"
+      }
+    ],
+    "correct": "p48a48b"
+  },
+  {
+    "id": "q-geo-48",
+    "statement": "Qual massa de ar polar é a principal responsável pelo fenômeno da 'friagem' na Amazônia ocidental durante o inverno?",
+    "options": [
+      {
+        "id": "p49a49a",
+        "content": "Massa Polar Atlântica (mPa)"
+      },
+      {
+        "id": "p49a49b",
+        "content": "Massa Equatorial Continental (mEc)"
+      },
+      {
+        "id": "p49a49c",
+        "content": "Massa Tropical Atlântica (mTa)"
+      },
+      {
+        "id": "p49a49d",
+        "content": "Massa Tropical Continental (mTc)"
+      },
+      {
+        "id": "p49a49e",
+        "content": "Massa Equatorial Atlântica (mEa)"
+      }
+    ],
+    "correct": "p49a49a"
+  },
+  {
+    "id": "q-geo-49",
+    "statement": "Qual é a cidade mais populosa do Brasil e de todo o Hemisfério Sul?",
+    "options": [
+      {
+        "id": "p50a50a",
+        "content": "Rio de Janeiro"
+      },
+      {
+        "id": "p50a50b",
+        "content": "São Paulo"
+      },
+      {
+        "id": "p50a50c",
+        "content": "Brasília"
+      },
+      {
+        "id": "p50a50d",
+        "content": "Salvador"
+      },
+      {
+        "id": "p50a50e",
+        "content": "Belo Horizonte"
+      }
+    ],
+    "correct": "p50a50b"
+  }
+]

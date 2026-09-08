@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz App</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Quiz App</h1>
+            <div class="welcome">
+                <p class="lead">Bem-vindo(a) ao Quiz App!</p>
+            </div>
+        </div>
+        <div id="quiz">
+
+            <!-- QUESTIONS CARDS -->
+
+            <div class="card" id="questions-card">
+                <div class="card-body">
+                    <div id="questions">
+                        <div class="question">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- QUESTIONS NAV -->
+
+            <div class="card my-2" id="nav-card">
+                <div class="card-body">
+                    <div id="nav">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESULT -->
+
+            <div id="result" class="alert alert-info">
+                Você acertou x/x questões e obteve a nota xx.
+            </div>
+
+            <!-- CONTROLS -->
+
+            <div id="controls">
+                <div class="row my-2" id="control-prevnext-container">
+                    <div class="col options d-grid gap-1">
+                        <a class="btn btn-light" id="prev" role="button">&larr; Anterior</a>
+                    </div>
+                    <div class="col options d-grid gap-1">
+                        <a class="btn btn-light" id="next" role="button">Próxima &rarr;</a>
+                    </div>
+                    <div class="col options d-grid gap-1">
+                        <a class="btn btn-primary" id="finish" role="button">Finalizar &check;</a>
+                    </div>
+                </div>
+                <div id="control-start-container">
+                    <div class="row my-2">
+                        <div class="col d-grid gap-1">
+                            <a class="btn btn-primary" id="start" role="button">Novo Quiz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script type="module" src="./js/script.js"></script>
+
+</html>

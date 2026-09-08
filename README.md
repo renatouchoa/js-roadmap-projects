@@ -28,3 +28,9 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |18|Restricted Textarea      |https://roadmap.sh/projects/restricted-textarea         |[/restricted-textarea](./solutions/beginner/restricted-textarea/)                |
 |19|Accordion                |https://roadmap.sh/projects/accordion                   |[/accordion](./solutions/beginner/accordion/)                                    |
 |20|Age Calculator           |https://roadmap.sh/projects/age-calculator              |[/age-calculator](./solutions/beginner/age-calculator/)                          |
+
+### Intermediate
+
+|# |Project                  |URL                                                     |Solution                                                                         |
+|--|-------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------|
+|1 |Quiz App                 |https://roadmap.sh/projects/quiz-app                    |[/quiz-app](./solutions/intermediate/quiz-app/)                                  |

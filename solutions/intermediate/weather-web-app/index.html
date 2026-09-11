@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Weather Web App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="my-5">Weather Web App</h1>
+        <div class="row">
+            <div class="col">
+                <input autocomplete="off" id="wwa-search-form-input" type="text" class="form-control form-control-lg"
+                    placeholder="Nome da cidade..." list="wwa-search-form-list" autofocus />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="wwa-search-result" class="mt-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Resultado da pesquisa</h4>
+                            <span id="search-credits">
+                                by <a href="https://www.geonames.org/" target="_blank">GeoNames</a>
+                            </span>
+                            <div id="wwa-search-result-list">
+                                <button class="btn btn-sm btn-lignt"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="wwa-weather" class="mt-2">
+                    <div class="card">
+                        <div class="card-body">
+
+                            <div id="wwa-weather-now">
+                                <h4 id="wwa-weather-now-local"><i id="wwa-weather-now-local-fav"></i>
+                                    Tempo agora
+                                    em <strong id="wwa-weather-now-local-value">&lt;local&gt;</strong></h4>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <span id="wwa-weather-now-icon-value">
+                                            &lt;I&gt;
+                                        </span>
+                                        <span id="wwa-weather-now-temp">
+                                            <span id="wwa-weather-now-temp-value">
+                                                &lt;T&gt;
+                                            </span>
+                                            <span id="wwa-weather-now-temp-unit">
+                                                ºC
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <ul class="wwa-weather-now-vars">
+                                            <li id="wwa-weather-now-conditions-value">
+                                                &lt;condições&gt;
+                                            </li>
+                                            <li>
+                                                <span id="wwa-weather-now-date-value">&lt;date&gt;</span>,
+                                                às <span id="wwa-weather-now-hour-value">&lt;horas&gt;</span>h
+                                            </li>
+                                            <li id="wwa-weather-now-weekday-value">
+                                                &lt;dia-da-semana&gt;
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4">
+                                        <ul class="wwa-weather-now-vars">
+                                            <li class="wwa-weather-now-precipprob" title="Probabilidade de chuva">
+                                                <i class="bi bi-cloud-rain-heavy"></i>
+                                                <span class="d-none d-lg-inline">Chuva: </span>
+                                                <span id="wwa-weather-now-precipprob-value">&lt;cc&gt;</span> %
+                                            </li>
+                                            <li class="wwa-weather-now-humidity" title="Umidade relativa do ar">
+                                                <i class="bi bi-moisture"></i>
+                                                <span class="d-none d-lg-inline">Umidade: </span>
+                                                <span id="wwa-weather-now-humidity-value">&lt;hh&gt;</span> %
+                                            </li>
+                                            <li class="wwa-weather-now-windspeed" title="Velocidade do vento">
+                                                <i class="bi bi-wind"></i>
+                                                <span class="d-none d-lg-inline">Vento:</span>
+                                                <span id="wwa-weather-now-windspeed-value">&lt;vv&gt;</span> km/h
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-md-6 col-lg-4">
+                                        <ul class="wwa-weather-now-vars">
+                                            <li class="wwa-weather-now-feelslike" title="Sensação térmica">
+                                                <i class="bi bi-thermometer-half"></i>
+                                                <span class="d-none d-lg-inline">Sensação térmica: </span>
+                                                <span id="wwa-weather-now-feelslike-value">&lt;st&gt;</span> ºC
+                                            </li>
+                                            <li class="wwa-weather-now-uvindex" title="Índice UV">
+                                                <i class="bi bi-sunrise"
+                                                    style="transform: rotate(90deg); display: inline-block;"></i>
+                                                <span class="d-none d-lg-inline">Índice UV: </span>
+                                                <span id="wwa-weather-now-uvindex-value">&lt;uv&gt;</span>
+                                            </li>
+                                            <li class="wwa-weather-now-moonphase" title="Índice UV">
+                                                <span id="wwa-weather-now-moonphase-icon">&lt;mfi&gt;</span>
+                                                <span id="wwa-weather-now-moonphase-label">&lt;mfl&gt;</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id=" wwa-weather-next12h">
+                                <h4>Próximas horas</h4>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="scrollabe d-flex" style="overflow-x: scroll;">
+                                            <div class="flex-shrink-0 wwa-weather-minicard">
+                                                <span class="wwa-weather-minicard-title">14h</span>
+                                                <span class="wwa-weather-minicard-condition"><i
+                                                        class="bi bi-brightness-high"></i></span>
+                                                <ul class="wwa-weather-minicard-temp">
+                                                    <li class="wwa-weather-minicard-temp-min">21º
+                                                    </li>
+                                                    <li class="wwa-weather-minicard-temp-max">34º
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                            <div class="flex-shrink-0" style="width: 100px;">
+                                                asdf
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+<script type="module" src="./script.js"></script>
+
+</html>

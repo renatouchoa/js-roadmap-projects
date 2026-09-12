@@ -3,12 +3,13 @@
  */
 export default class Geonames {
 
-    constructor(apiKey, mockResponses) {
-        if (!apiKey) {
-            throw new Error('Geonames requires apiKey');
-        }
-        this.username = apiKey;
-        this.mockResponses = mockResponses;
+    username = '';
+
+    mockResponses = false;
+
+    constructor(params) {
+        this.username = params.username;
+        this.mockResponses = params.mockResponses;
     }
 
     async find(local) {
@@ -16,7 +17,7 @@ export default class Geonames {
         try {
             if (!local) return null;
             local = local.trim();
-            if (local.length < 4) return null;
+            if (local.length === '') return null;
             let url = encodeURI('./js/mock_data/geonames.json');
             if (!this.mockResponses) {
                 url = encodeURI(`http://api.geonames.org/searchJSON?name_startsWith=${local}&featureClass=P&maxRows=10&username=${this.username}`);

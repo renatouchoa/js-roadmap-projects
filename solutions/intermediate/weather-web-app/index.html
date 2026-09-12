@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Weather Web App</title>
@@ -16,23 +15,23 @@
     <div class="container">
         <h1 class="my-5">Weather Web App</h1>
         <div class="row">
-            <div class="col">
-                <input autocomplete="off" id="wwa-search-form-input" type="text" class="form-control form-control-lg"
+            <div class="col wwa-form">
+                <input autocomplete="off" id="wwa-form-input" type="text" class="form-control form-control-lg"
                     placeholder="Nome da cidade..." list="wwa-search-form-list" autofocus />
+                <span class="fav"><i class="bi bi-star-fill"></i></span>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <div id="wwa-search-result" class="mt-2">
-                    <div class="card">
-                        <div class="card-body">
+                <div id="wwa-search" class="card mt-2">
+                    <div class="card-body">
+                        <div id="wwa-search-result">
                             <h4>Resultado da pesquisa</h4>
-                            <span id="search-credits">
-                                by <a href="https://www.geonames.org/" target="_blank">GeoNames</a>
-                            </span>
-                            <div id="wwa-search-result-list">
-                                <button class="btn btn-sm btn-lignt"></button>
-                            </div>
+                            <div id="wwa-search-result-list"></div>
+                        </div>
+                        <div id="wwa-search-fav">
+                            <h4>Favoritos</h4>
+                            <div id="wwa-search-fav-list"></div>
                         </div>
                     </div>
                 </div>
@@ -43,11 +42,12 @@
                 <div id="wwa-weather" class="mt-2">
                     <div class="card">
                         <div class="card-body">
-
                             <div id="wwa-weather-now">
-                                <h4 id="wwa-weather-now-local"><i id="wwa-weather-now-local-fav"></i>
-                                    Tempo agora
-                                    em <strong id="wwa-weather-now-local-value">&lt;local&gt;</strong></h4>
+                                <h4 id="wwa-weather-now-local">
+                                    <i id="wwa-weather-now-local-fav"></i>
+                                    Tempo agora em
+                                    <strong id="wwa-weather-now-local-value">&lt;local&gt;</strong>
+                                </h4>
                                 <div class="row">
                                     <div class="col-12 col-md-6 col-lg-4">
                                         <span id="wwa-weather-now-icon-value">
@@ -116,57 +116,69 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id=" wwa-weather-next12h">
-                                <h4>Próximas horas</h4>
+                        </div>
+                        <div class="card-body">
+                            <div id="wwa-weather-hourly">
+                                <h4>Hora a hora</h4>
                                 <div class="row">
                                     <div class="col-12">
-                                        <div class="scrollabe d-flex" style="overflow-x: scroll;">
-                                            <div class="flex-shrink-0 wwa-weather-minicard">
-                                                <span class="wwa-weather-minicard-title">14h</span>
-                                                <span class="wwa-weather-minicard-condition"><i
-                                                        class="bi bi-brightness-high"></i></span>
-                                                <ul class="wwa-weather-minicard-temp">
-                                                    <li class="wwa-weather-minicard-temp-min">21º
-                                                    </li>
-                                                    <li class="wwa-weather-minicard-temp-max">34º
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
-                                            </div>
-                                            <div class="flex-shrink-0" style="width: 100px;">
-                                                asdf
+                                        <div class="scrollabe d-flex" id="wwa-weather-hourly-container"
+                                            style="overflow-x: scroll;">
+                                            <div class="wwa-weather-hourly-hour">
+                                                <span class="wwa-weather-hourly-hour-title">14h</span>
                                             </div>
                                         </div>
 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div id="wwa-weather-daily">
+                                <h4>Próximos dias</h4>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div id="wwa-weather-daily-container">
+                                            <div class="wwa-weather-daily-day">
+                                                <span class="wwa-weather-daily-day-title">
+                                                    <span class="number">13</span>
+                                                    <span class="name">dom</span>
+                                                </span>
+                                                <span class="wwa-weather-daily-day-icon">
+                                                    <i class="bi bi-sun"></i>
+                                                </span>
+                                                <ul class="wwa-weather-daily-day-temp">
+                                                    <li class="min">21°</li>
+                                                    <li class="max">32°</li>
+                                                </ul>
+                                                <div class="wwa-weather-daily-day-vars withicons">
+                                                    <ul>
+                                                        <li class="precipprob">
+                                                            asdf
+                                                        </li>
+                                                        <li class="feelslike">
+                                                            asdf
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li class="humidity">
+                                                            asdf
+                                                        </li>
+                                                        <li class="uvindex">
+                                                            asdf
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li class="windspeed">
+                                                            asdf
+                                                        </li>
+                                                        <li class="moonphase">
+                                                            asdf
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -177,6 +189,6 @@
         </div>
 
 </body>
-<script type="module" src="./script.js"></script>
+<script type="module" src="./js/script.js"></script>
 
 </html>

@@ -7,15 +7,15 @@ export default class Moonphase {
         },
         WAXING_CRESCENT: {
             name: { en: 'Waxing Crescent', pt: 'Crescente' },
-            icon: { className: 'bi bi-moon', style: '' },
+            icon: { className: 'bi bi-circle-half', style: '' },
         },
         FIRST_QUARTER: {
             name: { en: 'First Quarter', pt: 'Quarto Crescente' },
-            icon: { className: 'bi bi-moon', style: '' },
+            icon: { className: 'bi bi-circle-half', style: '' },
         },
         WAXING_GIBBOUS: {
             name: { en: 'Waxing Gibbous', pt: 'Crescente Gibosa' },
-            icon: { className: 'bi bi-moon', style: '' },
+            icon: { className: 'bi bi-circle-half', style: '' },
         },
         FULL_MOON: {
             name: { en: 'Full Moon', pt: 'Lua Cheia' },
@@ -23,15 +23,15 @@ export default class Moonphase {
         },
         WANING_GIBBOUS: {
             name: { en: 'Waning Gibbous', pt: 'Minguante Gibosa' },
-            icon: { className: 'bi bi-moon', style: 'transform: rotate(-90deg); display: inline-block;' },
+            icon: { className: 'bi bi-circle-half', style: 'transform: rotate(180deg); display: inline-block;' },
         },
         LAST_QUARTER: {
             name: { en: 'Last Quarter', pt: 'Quarto Minguante' },
-            icon: { className: 'bi bi-moon', style: 'transform: rotate(-90deg);; display: inline-block;' },
+            icon: { className: 'bi bi-circle-half', style: 'transform: rotate(180deg);; display: inline-block;' },
         },
         WANING_CRESCENT: {
             name: { en: 'Waning Crescent', pt: 'Minguante' },
-            icon: { className: 'bi bi-moon', style: 'transform: rotate(-90deg);; display: inline-block;' },
+            icon: { className: 'bi bi-circle-half', style: 'transform: rotate(180deg);; display: inline-block;' },
         },
     };
 
@@ -45,5 +45,13 @@ export default class Moonphase {
         if (fract === 0.75) return this.#PHASES.LAST_QUARTER;
         if (fract > 0.75 && fract < 1) return this.#PHASES.WANING_CRESCENT;
         return this.#PHASES.NEW_MOON;
+    }
+
+    static buildIcon(fract) {
+        const phase = Moonphase.get(fract);
+        const icon = document.createElement('i');
+        icon.className = phase.icon.className;
+        icon.style = phase.icon.style;
+        return icon;
     }
 }

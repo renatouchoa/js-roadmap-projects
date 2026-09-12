@@ -2,29 +2,35 @@ body {
     background-color: azure;
 }
 
-.card-body {
+h4 {
+    font-weight: lighter;
+}
 
+.wwa-form {
     position: relative;
 
-    #search-credits {
-        font-size: 80%;
-        color: #BBB;
+    .fav {
         float: right;
         position: absolute;
-        top: .6rem;
-        right: .6rem;
-
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
+        top: 8px;
+        right: 26px;
+        color: #777;
+        font-size: 20px;
     }
 }
+
+#wwa-search-fav-list {
+    .empty {
+        font-size: 80%;
+        color: #666;
+        font-style: italic;
+    }
+}
+
 
 #wwa-weather {
 
     #wwa-weather-now-local {
-        font-weight: lighter;
 
         &#wwa-weather-now-local-value {
             font-weight: bold;
@@ -62,49 +68,167 @@ body {
         }
     }
 
-    #wwa-weather-next12h {
+    #wwa-weather-hourly {
 
-        .wwa-weather-minicard {
-            border-radius: 3px;
+        .wwa-weather-hourly-hour {
             margin-right: 8px;
             padding: 4px 10px;
+            flex-shrink: 0;
 
-            .wwa-weather-minicard-title {
+            .wwa-weather-hourly-hour-title {
                 display: block;
                 text-align: center;
-                font-size: 90%;
+                font-size: 80%;
             }
 
-            .wwa-weather-minicard-condition {
-                text-align: center;
-                font-size: 50px;
+            .wwa-weather-hourly-hour-icon {
                 display: block;
+                font-size: 26px;
+                text-align: center;
             }
 
-            .wwa-weather-minicard-temp {
-                list-style-type: none;
-                padding: 0;
+        }
+
+    }
+
+    #wwa-weather-daily {
+
+        * {
+            line-height: normal;
+        }
+
+        #wwa-weather-daily-container {
+            .wwa-weather-daily-day {
+                border: 1px solid #EEE;
+                border-radius: 10px;
                 display: flex;
-                margin: 0;
+                gap: 4px;
+                margin-bottom: 8px;
+                align-items: center;
+                padding: 4px;
 
-                .wwa-weather-minicard-temp-min,
-                .wwa-weather-minicard-temp-max {
-                    padding: 0;
-                    flex: 1;
+                .wwa-weather-daily-day-title {
+                    background-color: #F7F7F7;
+                    border-radius: 10px;
+                    width: 60px;
+                    padding: 8px 0;
+
+                    .number {
+                        display: block;
+                        text-align: center;
+                        font-size: 24px;
+                    }
+
+                    .name {
+                        display: block;
+                        text-align: center;
+                        font-size: 80%;
+                    }
+                }
+
+                .wwa-weather-daily-day-icon {
+                    width: 50px;
+                    align-content: center;
                     text-align: center;
-                    padding: 0 5px;
 
+                    i {
+                        font-size: 32px;
+                    }
                 }
 
-                .wwa-weather-minicard-temp-min {
-                    color: rgb(52, 107, 207);
+                .wwa-weather-daily-day-temp {
+                    align-items: center;
+                    font-size: 16px;
+                    display: flex;
+                    width: 40px;
+                    padding: 0;
+                    margin: 0;
+                    gap: 4px;
+                    flex-direction: column;
+                    list-style-type: none;
+
+                    li {
+                        display: block;
+                        text-align: center;
+
+                        &.min {
+                            color: rgb(30, 30, 167);
+                        }
+
+                        &.max {
+                            color: maroon;
+                        }
+                    }
                 }
 
-                .wwa-weather-minicard-temp-max {
-                    color: rgb(161, 49, 49);
+                .wwa-weather-daily-day-vars {
+                    display: flex;
+                    align-items: center;
+                    flex-grow: 1;
+                    gap: 30px;
+                    font-size: 80%;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0;
+                        margin: 0;
+                        list-style-type: none;
+
+                        li {
+                            display: block;
+                        }
+                    }
                 }
             }
         }
+    }
+}
 
+.withicons {
+    ul {
+        li {
+            i {
+                margin-right: 4px;
+            }
+
+            &::before {
+                font-family: "bootstrap-icons";
+                margin-right: 4px;
+                display: inline-block;
+            }
+
+            &.precipprob::before {
+                content: "\F2B5";
+            }
+
+            &.feelslike::before {
+                content: "\F5CD";
+            }
+
+            &.humidity::before {
+                content: "\F493";
+            }
+
+            &.uvindex::before {
+                content: "\F5A5";
+                transform: rotate(90deg);
+            }
+
+            &.windspeed::before {
+                content: "\F61D";
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .wwa-weather-daily-day-temp {
+        width: 30px !important;
+        font-size: 80% !important;
+    }
+
+    .wwa-weather-daily-day-vars {
+        font-size: 70% !important;
     }
 }

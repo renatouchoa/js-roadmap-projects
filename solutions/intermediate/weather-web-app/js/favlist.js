@@ -31,4 +31,8 @@ export default class Favlist {
         const data = Array.from(this.#list.entries());
         localStorage.setItem(Favlist.#KEY, JSON.stringify(data));
     }
+
+    getList() {
+        return this.#list;
+    }
 }

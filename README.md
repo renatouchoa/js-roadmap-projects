@@ -34,3 +34,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |# |Project                  |URL                                                     |Solution                                                                         |
 |--|-------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------|
 |1 |Quiz App                 |https://roadmap.sh/projects/quiz-app                    |[/quiz-app](./solutions/intermediate/quiz-app/)                                  |
+|2 |Weather Web App          |https://roadmap.sh/projects/weather-app                 |[/weather-web-app](./solutions/intermediate/weather-web-app/)                    |

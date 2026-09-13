@@ -35,3 +35,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |--|-------------------------|--------------------------------------------------------|---------------------------------------------------------------------------------|
 |1 |Quiz App                 |https://roadmap.sh/projects/quiz-app                    |[/quiz-app](./solutions/intermediate/quiz-app/)                                  |
 |2 |Weather Web App          |https://roadmap.sh/projects/weather-app                 |[/weather-web-app](./solutions/intermediate/weather-web-app/)                    |
+|3 |GitHub Random Repository |https://roadmap.sh/projects/github-random-repo          |[/github-random-repo](./solutions/intermediate/github-random-repo/)              |

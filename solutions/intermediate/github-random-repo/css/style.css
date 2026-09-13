@@ -1,0 +1,22 @@
+#repo-container {
+
+    .col-lg-2,
+    .col-md-3,
+    .col-3 {
+        text-align: center;
+    }
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+.repo-owner {
+    text-align: right;
+}
+
+.avatar {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}

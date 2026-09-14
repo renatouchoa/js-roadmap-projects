@@ -8,10 +8,10 @@ export default class Dropdown {
 
     menu;
 
-    state;
+    collapsed;
 
-    constructor(dropdown) {
-        this.dropdownElement = dropdown;
+    constructor(dropdownElement) {
+        this.dropdownElement = dropdownElement;
         this.fetchToggle();
         this.fetchMenu();
     }
@@ -30,26 +30,40 @@ export default class Dropdown {
     }
 
     fetchMenu() {
-        this.menu = new Menu(this.dropdownElement.querySelector('.dropdown-menu'));
+        this.menu = new Menu(this.dropdownElement.querySelector('.dropdown-menu'), menuItem => {
+            this.setToggleContent(menuItem.getContent());
+            this.setToggleActioned();
+            setTimeout(() => {
+                this.collapse();
+            }, 200);
+        });
         this.collapse();
+    }
+
+    setToggleContent(content) {
+        this.toggleElement.textContent = content;
+    }
+
+    setToggleActioned() {
+        this.toggleElement.classList.add('actioned');
     }
 
     expand() {
         this.menu.show();
-        this.state = 'expanded';
+        this.collapsed = false;
     }
 
     collapse() {
         this.menu.hide();
-        this.state = 'collapsed';
+        this.collapsed = true;
     }
 
     toggle() {
-        if (this.state === 'expanded') {
-            this.collapse();
+        if (this.collapsed) {
+            this.expand();
             return;
         }
-        this.expand();
+        this.collapse();
     }
 
 }

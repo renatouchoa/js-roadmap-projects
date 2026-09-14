@@ -25,8 +25,12 @@ h1 {
         gap: 5px;
     }
 
-    .col {
+    .col-4 {
         width: 33.3333%;
+    }
+
+    .col-12 {
+        width: 100%;
     }
 }
 
@@ -52,26 +56,43 @@ h1 {
 }
 
 .dropdown {
+    position: relative;
+
     .dropdown-menu {
         border: 1px solid #CCC;
         border-radius: 6px;
         list-style-type: none;
         padding: 6px 0;
         background-color: #F9F9F9;
+        position: absolute;
+        width: auto;
+        float: left;
+        margin-top: 2px;
 
         li {
-            a {
-                color: #444;
-                display: block;
-                padding: 6px 10px;
-                text-decoration: none;
+            color: #444;
+            display: block;
+            padding: 10px 30px 10px 34px;
+            text-decoration: none;
+            cursor: pointer;
 
+            &:hover {
+                background-color: #EEE;
+                color: #111;
+            }
 
-                &:hover {
-                    background-color: #EEE;
-                    color: #111;
+            &.selected {
+                font-weight: bold;
+
+                &::after {
+                    font-family: "bootstrap-icons";
+                    position: absolute;
+                    display: inline-block;
+                    left: 10px;
+                    content: "\F26A";
                 }
             }
+
         }
     }
 }

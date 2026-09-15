@@ -48,6 +48,7 @@ body {
             border: 1px solid #BBB;
             background-color: #DDD;
             cursor: pointer;
+            color: #666;
 
             &:hover,
             &:focus {
@@ -65,9 +66,13 @@ body {
 
     .task {
         display: flex;
-        border-bottom: 1px solid #CCC;
+        border-bottom: 1px dashed #CCC;
         padding: 5px;
         gap: 4px;
+
+        &:first-child.task {
+            border-top: 1px dashed #CCC;
+        }
 
         button {
             border: none;
@@ -122,6 +127,12 @@ body {
         }
 
     }
+}
+
+#message-empty {
+    text-align: center;
+    font-style: italic;
+    color: #CCC;
 }
 
 @media(max-width: 700px) {

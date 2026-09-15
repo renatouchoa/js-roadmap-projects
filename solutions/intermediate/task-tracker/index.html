@@ -14,16 +14,11 @@
         <form id="form">
             <div class="form-container">
                 <input type="text" name="taskContent" id="input" placeholder="Nova tarefa..." autofocus />
-                <button type="submit">↩</button>
+                <button type="submit" style="transform: rotate(180deg);">&#x27A6;</button>
             </div>
         </form>
-        <ul id="list">
-            <li class="task checked editing">
-                <button class="task-check"></button>
-                <input type="text" class="task-desc" value="Fazer o dever de casa" />
-                <button class="task-delete"></button>
-            </li>
-        </ul>
+        <ul id="list"></ul>
+        <div id="message-empty">Lista de tarefas vazia.</div>
     </div>
     <script type="module" src="./js/script.js"></script>
 </body>

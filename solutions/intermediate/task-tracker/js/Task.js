@@ -4,8 +4,6 @@ export default class Task {
 
     #content;
 
-    #preservedContent;
-
     #checked = false;
 
     constructor(content, id = Date.now(), cheched = false) {
@@ -15,6 +13,8 @@ export default class Task {
     }
 
     setContent(content) {
+        content = content.trim();
+        if (content === '') return;
         this.#content = content;
     }
 
@@ -48,17 +48,6 @@ export default class Task {
 
     isNot(id) {
         return this.#id !== id;
-    }
-
-    preserveContent() {
-        this.#preservedContent = this.#content;
-    }
-
-    restoreContent() {
-        if (!this.#preservedContent) return this.#content;
-        this.#content = this.#preservedContent;
-        this.#preservedContent = null;
-        return this.#content;
     }
 
     toJSON() {

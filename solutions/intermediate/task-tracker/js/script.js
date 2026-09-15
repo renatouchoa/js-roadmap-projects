@@ -7,6 +7,7 @@ const taskList = new TaskList();
 
 const form = document.getElementById('form');
 const list = document.getElementById('list');
+const emptyMessage = document.getElementById('message-empty');
 
 ////////////////////////////////////////////////////////////////////////////////////
 
@@ -17,10 +18,16 @@ function buildInputDesc(task, onFocusFn, focusOutFn) {
     input.value = task.getContent();
     input.addEventListener('focus', onFocusFn);
     input.addEventListener('focusout', () => {
-        taskList.update(task.id, input.value);
+        taskList.update(task.getId(), input.value);
         focusOutFn();
         renderList();
-    })
+    });
+    input.addEventListener('keypress', e => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            input.dispatchEvent(new Event('focusout'));
+        }
+    });
     return input;
 }
 
@@ -64,7 +71,6 @@ function buildListITem(task) {
     li.appendChild(buildInputDesc(
         task,
         () => { /* on focus function */
-            task.preserveContent();
             li.classList.add('editing');
         },
         () => { /* focus out function */
@@ -79,6 +85,11 @@ function buildListITem(task) {
 
 function renderList() {
     list.innerHTML = '';
+    if (taskList.isEmpty()) {
+        emptyMessage.hidden = false;
+        return;
+    }
+    emptyMessage.hidden = true;
     taskList.forEach(task => {
         list.appendChild(buildListITem(task));
     });
@@ -88,8 +99,13 @@ function renderList() {
 
 form.addEventListener('submit', e => {
     e.preventDefault();
-    const content = (new FormData(e.target)).get('taskContent');
+    const content = (new FormData(e.target)).get('taskContent').trim();
+    if (content === '') {
+        return;
+    }
     taskList.add(content);
+    input.value = '';
+    input.focus();
     renderList();
 });
 

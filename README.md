@@ -37,3 +37,4 @@ Solutions for [JavaScript Projects Developer Roadmaps](https://roadmap.sh/javasc
 |2 |Weather Web App          |https://roadmap.sh/projects/weather-app                 |[/weather-web-app](./solutions/intermediate/weather-web-app/)                    |
 |3 |GitHub Random Repository |https://roadmap.sh/projects/github-random-repo          |[/github-random-repo](./solutions/intermediate/github-random-repo/)              |
 |4 |Custom Dropdown          |https://roadmap.sh/projects/custom-dropdown             |[/custom-dropdown](./solutions/intermediate/custom-dropdown/)                    |
+|5 |Task Tracker             |https://roadmap.sh/projects/task-tracker-js             |[/task-tracker](./solutions/intermediate/task-tracker/)                          |

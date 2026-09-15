@@ -19,6 +19,10 @@ export default class TaskList {
         TaskListRepository.save(this.#tasks);
     }
 
+    isEmpty() {
+        return this.#tasks.length === 0;
+    }
+
     add(content) {
         const task = new Task(content, this.#generateId());
         this.#tasks.push(task);
@@ -33,6 +37,7 @@ export default class TaskList {
 
     update(id, content) {
         this.find(id).setContent(content);
+        this.save();
     }
 
     check(id) {

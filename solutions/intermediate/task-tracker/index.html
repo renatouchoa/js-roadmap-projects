@@ -13,35 +13,15 @@
         <h1>Task Tracker</h1>
         <form id="form">
             <div class="form-container">
-                <input type="text" name="task" id="input" placeholder="Nova tarefa..." autofocus />
+                <input type="text" name="taskContent" id="input" placeholder="Nova tarefa..." autofocus />
                 <button type="submit">↩</button>
             </div>
         </form>
         <ul id="list">
-            <li class="task checked">
+            <li class="task checked editing">
                 <button class="task-check"></button>
-                <span class="task-desc">Fazer o dever de casa</span>
-                <button class="task-delete">&straightepsilon;</button>
-            </li>
-            <li class="task">
-                <button class="task-check"></button>
-                <span class="task-desc">Fazer o dever de casa</span>
-                <button class="task-delete">&straightepsilon;</button>
-            </li>
-            <li class="task checked">
-                <button class="task-check"></button>
-                <span class="task-desc">Fazer o dever de casa</span>
-                <button class="task-delete">&straightepsilon;</button>
-            </li>
-            <li class="task">
-                <button class="task-check"></button>
-                <span class="task-desc">Fazer o dever de casa</span>
-                <button class="task-delete">&straightepsilon;</button>
-            </li>
-            <li class="task checked">
-                <button class="task-check"></button>
-                <span class="task-desc">Fazer o dever de casa</span>
-                <button class="task-delete">&straightepsilon;</button>
+                <input type="text" class="task-desc" value="Fazer o dever de casa" />
+                <button class="task-delete"></button>
             </li>
         </ul>
     </div>
